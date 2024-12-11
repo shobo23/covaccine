@@ -9,6 +9,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <header>
@@ -53,6 +54,12 @@
         </div>
       </div>
     </main>
+
+    <!-- Scroll to top icon -->
+     <button id="scrollToTop" class="scrollToTop">
+      <i class='bx bxs-chevron-up' ></i>
+      </button>
+
     <section id="about" class="about">
       <div class="generalContainer">
         <div class="img">
@@ -161,7 +168,7 @@
         </div>
           <div class="content">
              <div class="contactForm">
-          <form>
+          <form action="#" id="contactForm">
             <div class="email">
               <label for="email">Email</label>
               <input type="email" name="email" id="email">
@@ -225,7 +232,7 @@
         </div>
         <div class="bottomFooter">
           <div class="creator">
-            <p>Create by $#0ẞØ.listic</p>
+            <p>Create by &copy; $#0ẞØ.listic</p>
           </div>
           <div class="termAndPolicy">
             <a href="#">Terms</a>
@@ -234,5 +241,6 @@
         </div>
       <!-- </div> -->
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -148,7 +148,28 @@ main .img {
 main .img img {
   width: 100%;
 }
-
+/* scroll to top icon */
+.scrollToTop{
+  /* font-size: xx-large;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%; */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  color: var(--light);
+  border: none;
+  font-size: 24px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: none;
+}
+.scrollToTop:hover{
+  background-color: var(--primary-shade);
+}
 .about {
   width: 100%;
   padding: 64px 0;
